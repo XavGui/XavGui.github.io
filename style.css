@@ -1,0 +1,53 @@
+div#content div{
+	display: inline-block;
+	width: 48%;
+}
+
+div#content div h1, p{
+	margin: 35px;
+}
+
+div#content div.leftbox{
+	vertical-align: top;
+}
+
+
+div#content div.rightbox{
+	vertical-align: top;
+}
+
+nav.menu-nav ul li.btn{
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav.menu-nav ul li.btn a{
+	color: black;
+	background-color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav.menu-nav ul li.btn:hover a{
+	color: black;
+	background-color: blue;
+	transition: 0.3s all;
+}
+
+p.un{
+	color: red;
+	background-color: #000000
+}
+
+p.deux{
+	color: blue;
+}
+
+body{
+	background-color: #777;
+}
+
+h2.headline{
+	font-size: 100px;
+	padding-left: 100px;
+}
